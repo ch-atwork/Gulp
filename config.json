@@ -1,0 +1,55 @@
+{
+    "application": "Template",
+    "version": "1.0.0",
+    "entryPage": "template.html",
+    "src": {
+        "app": {
+            "path": "",
+            "src": "/src",
+            "scripts": "/scripts",
+            "styles": "/styles",
+            "views": "/views"
+        },
+        "lib": "/node_modules",
+        "class": "/Common/Classes",
+        "component": "/Common/components"
+    },
+    "dest": {
+        "app": {
+            "path": "../Deploy/Apps/Template",
+            "src": "/src",
+            "scripts": "/scripts",
+            "styles": "/styles",
+            "views": "/views"
+        },
+        "lib": "/Deploy/Libs",
+        "class": "/Deploy/Classes",
+        "component": "/Deploy/Components"
+    },
+    "views": [
+        "index"
+    ],
+    "scripts": [
+        "index"
+    ],
+    "styles": [
+        "style"
+    ],
+    "libs": [
+        "jquery/dist/jquery.min.js",
+        "bootstrap/dist/js/bootstrap.min.js",
+        "knockout/build/output/knockout-latest.js",
+        "lodash/lodash.min.js"
+    ],
+    "common": [
+        "utils"
+    ],
+     "components": [
+    ],
+    "dev":{
+        "server": "../Dev"
+    },
+    "prod": {
+        "server": "../Prod"
+    }
+}
